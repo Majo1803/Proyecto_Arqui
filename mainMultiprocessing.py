@@ -22,7 +22,7 @@ def buscarRuta():
 	inicioApp = time.time() #Comienza a medir el tiempo del proceso
 
 	inicioBuscarRuta= time.time() #Comienza a medir el tiempo del proceso
-	rutaImagenPrincipal= "gato.jpg"   #---> imagen que se pixeliará / cambiar ruta para hacer diferentes pruebas
+	rutaImagenPrincipal= "imagenes\gato.jpg"   #---> imagen que se pixeliará / cambiar ruta para hacer diferentes pruebas
 	rutaCarpetaImagenes="prueba\\*"  #---->imagenes que la formaran
 	tamañoMosaico=(25,25) #---->tamaño de las imagenes que formaran el collage
 	finalBuscarRuta= time.time()
